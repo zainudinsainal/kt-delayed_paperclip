@@ -1,8 +1,7 @@
-Delayed::Paperclip [![Build Status](https://travis-ci.org/jrgifford/delayed_paperclip.svg?branch=master)](https://travis-ci.org/jrgifford/delayed_paperclip) [![Code Climate](https://codeclimate.com/github/jrgifford/delayed_paperclip.png)](https://codeclimate.com/github/jrgifford/delayed_paperclip)
 ======================================================================================
 
 
-DelayedPaperclip lets you process your [Paperclip](http://github.com/thoughtbot/paperclip)
+kt-DelayedPaperclip lets you process your [Paperclip](http://github.com/kreeti/kt-paperclip)
 attachments in a background task with [ActiveJob](https://github.com/rails/rails/tree/master/activejob)
 
 Why?
@@ -21,14 +20,14 @@ Installation
 Install the gem:
 
 ```
-gem install delayed_paperclip
+gem install kt-delayed_paperclip
 ```
 
 Or even better, add it to your Gemfile.
 
 ```
 source "https://rubygems.org"
-gem "delayed_paperclip"
+gem "kt-delayed_paperclip"
 ```
 
 Usage

@@ -1,0 +1,2 @@
+require 'delayed_paperclip'
+

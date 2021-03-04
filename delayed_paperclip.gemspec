@@ -2,18 +2,18 @@ $:.push File.expand_path("../lib", __FILE__)
 require "delayed_paperclip/version"
 
 Gem::Specification.new do |s|
-  s.name        = %q{delayed_paperclip}
+  s.name        = %q{kt-delayed_paperclip}
   s.version     = DelayedPaperclip::VERSION
 
-  s.authors     = ["Jesse Storimer", "Bert Goethals", "James Gifford", "Scott Carleton"]
+  s.authors     = ["Adam Anderson", "Jesse Storimer", "Bert Goethals", "James Gifford", "Scott Carleton"]
   s.summary     = %q{Process your Paperclip attachments in the background}
   s.description = %q{Process your Paperclip attachments in the background with ActiveJob}
   s.email       = %w{james@jamesrgifford.com scott@artsicle.com}
-  s.homepage    = %q{https://github.com/jrgifford/delayed_paperclip}
+  s.homepage    = %q{https://github.com/adamtao/kt-delayed_paperclip}
 
   s.required_ruby_version = ">= 2.0.0"
 
-  s.add_dependency 'paperclip', [">= 3.3"]
+  s.add_dependency 'kt-paperclip', "~> 6.4", ">= 6.4.1"
   s.add_dependency 'activejob', ">= 4.2"
 
   s.add_development_dependency 'mocha'

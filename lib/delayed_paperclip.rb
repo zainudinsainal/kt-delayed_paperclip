@@ -1,3 +1,4 @@
+require 'kt-paperclip'
 require 'delayed_paperclip/process_job'
 require 'delayed_paperclip/attachment'
 require 'delayed_paperclip/url_generator'
